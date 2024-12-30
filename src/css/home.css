@@ -1,0 +1,63 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+@font-face {
+    font-family: 'myfont';
+    src: url('../assets/fonts/PlayfairDisplaySC-Regular.ttf'),    
+  }
+  .home {
+    font-family: 'myfont', sans-serif;
+    /*background-image: url('../assets/images/Dusty.jpeg');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    height: fit-content; */
+ 
+  }
+  body {
+    background-color: #121212;
+    color: white;
+    overflow-x: hidden;
+  }
+  
+  .carousel-container {
+    width: 100%;
+    padding: 20px;
+  }
+  
+  .card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    text-align: center;
+  }
+  
+  .card img {
+    width: 100%;
+    border-radius: 8px;
+  }
+
+  
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;  /* Width of the scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background: #1a1a1a; /* Track background */
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #786c90; /* Scrollbar thumb color */
+  border-radius: 10px;  /* Rounded corners for thumb */
+  border: 2px solid #1a1a1a; /* Adds space around the thumb */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #786c90; /* Darker shade on hover */
+}
